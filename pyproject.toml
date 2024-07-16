@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "mycli"
+version = "0.1.0"
+description = ""
+authors = ["Bill Tyros <me@strategineer.com>"]
+readme = "README.md"
+packages = [{include = "mycli"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sounddevice = "^0.4.7"
+scipi = "^1.14.0"
+click = "^8.1.7"
+black = "^24.4.2"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = "src"
