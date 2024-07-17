@@ -24,10 +24,6 @@ def callback(indata, frames, time, status):
     q.put(indata.copy())
 
 def main():
-
-    print("Record Warno VO")
-    # TODO go through each voice line one by one
-    # TODO press spacebar to start/stop the recording of each and save to the right place as an ogg file
     # TODO have a param to filter files by filename/prefix, to overwrite them or not so we can continue where we left off,
     ls = []
     txt = ""
@@ -44,7 +40,6 @@ def main():
     wasapi_exclusive = sd.WasapiSettings(exclusive=True)
     sd.default.extra_settings = wasapi_exclusive
     for identifier in ls:
-        # TODO I need to add these files but change their path slightly and and change the folder or filename so that warno detects the new file instead of using the old one
         output_filepath = pathlib.Path(MOD_SOUNDS_BASEPATH, f"{identifier}_strat.ogg")
         if output_filepath.exists():
             print(f"{output_filepath} already exists, skipping to next file")
@@ -69,7 +64,7 @@ def main():
                                 channels=channels) as file:
                     with sd.InputStream(samplerate=samplerate, callback=callback):
                         print('#' * 80)
-                        print('Press r to restart the recording. Press s to skip this file. Press Spacebar to stop the recording')
+                        print('Press r to restart the recording. Press s to skip this file. Press Spacebar to save the recording')
                         print('#' * 80)
                         while True:
                             file.write(q.get())
