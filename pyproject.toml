@@ -9,7 +9,8 @@ packages = [{include = "mycli"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 sounddevice = "^0.4.7"
-scipi = "^1.14.0"
+soundfile = "^0.12.1"
+numpy = "^2.0.0"
 click = "^8.1.7"
 black = "^24.4.2"
 
