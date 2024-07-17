@@ -46,7 +46,7 @@ sd.default.extra_settings = wasapi_exclusive
 for f in ls:
     output_filepath = pathlib.Path(MOD_SOUNDS_BASEPATH, f"{f}.ogg")
     if output_filepath.exists():
-        print(f"{output_filepath} already exists, skipping to fix file")
+        print(f"{output_filepath} already exists, skipping to next file")
         continue
     restart_recording = True
     skip_file = False
@@ -81,10 +81,10 @@ for f in ls:
                         if keyboard.is_pressed(' '):
                             break
         except KeyboardInterrupt as e:
+            output_filepath.unlink(missing_ok=True)
             sys.exit()
         except Exception as e:
-            sys.exit(type(e).__name__ + ': ' + str(e))
-        finally:
             output_filepath.unlink(missing_ok=True)
-    if skip_file:
-        output_filepath.unlink(missing_ok=True)
+            sys.exit(type(e).__name__ + ': ' + str(e))
+        if skip_file:
+            output_filepath.unlink(missing_ok=True)
