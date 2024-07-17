@@ -11,8 +11,8 @@ import soundfile as sf
 import numpy  # Make sure NumPy is loaded before it is used in the callback
 assert numpy  # avoid "imported but unused" message (W0611)
 
-DESCRIPTORS_PATH = "GameData/Generated/Sound/AcknowDescriptors.ndf"
-MOD_SOUNDS_BASEPATH = "C:\dev\warno_bark_mod\GameData\Assets\Sons\Acknows"
+DESCRIPTORS_PATH = "WoofWoofMod/GameData/Generated/Sound/AcknowDescriptors.ndf"
+MOD_SOUNDS_BASEPATH = "C:\dev\warno-mods\WoofWoofMod\GameData\Assets\Sons\Acknows"
 
 q = queue.Queue()
 
