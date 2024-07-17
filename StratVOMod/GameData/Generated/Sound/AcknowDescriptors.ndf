@@ -9001,7 +9001,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_AirSup_Evacuation_critique_c_est_trop_chaud_je_decroche' Filter = TSoundFilter_RadioAirplane )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_AirSup_Evacuation_critique_c_est_trop_chaud_je_decroche_strat' Filter = TSoundFilter_RadioAirplane )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_AirSup
@@ -9089,7 +9089,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_AirSup_Attack_Position_cible_a_12_heures' Filter = TSoundFilter_RadioAirplane )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_AirSup_Attack_Position_cible_a_12_heures_strat' Filter = TSoundFilter_RadioAirplane )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_AirSup
@@ -9521,7 +9521,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_DamageReceived_on_nous_tire_dessus' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_DamageReceived_on_nous_tire_dessus_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9537,7 +9537,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Load_attelez_ce_canon' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Load_attelez_ce_canon_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9561,7 +9561,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_c_est_parti' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_c_est_parti_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 3
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9569,7 +9569,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_compris' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_compris_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 4
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9577,7 +9577,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Fast_en_route' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Fast_en_route_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 5
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9585,7 +9585,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Fast_fonce_pilote' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Fast_fonce_pilote_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 6
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9593,7 +9593,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Fast_on_fonce_les_gars' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Fast_on_fonce_les_gars_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 7
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9601,7 +9601,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Fast_oui_chef' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Fast_oui_chef_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 8
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9609,7 +9609,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Fast_pas_de_temps_a_perdre' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Fast_pas_de_temps_a_perdre_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 9
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9617,7 +9617,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_on_redeploie_la_dca' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_on_redeploie_la_dca_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 10
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9625,7 +9625,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Attack_armez_le_canon' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Attack_armez_le_canon_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9633,7 +9633,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Attack_c_est_parti' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Attack_c_est_parti_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9641,7 +9641,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Attack_en_avant_et_degommez_tout_ce_qui_bouge' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Attack_en_avant_et_degommez_tout_ce_qui_bouge_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 3
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9649,7 +9649,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Attack_on_avance_et_on_tire_a_vue' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Attack_on_avance_et_on_tire_a_vue_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 4
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9657,7 +9657,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Attack_soyez_sur_vos_gardes' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Move_Attack_soyez_sur_vos_gardes_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 5
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9665,7 +9665,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_No_Ammo_on_est_a_court_de_munitions_ici' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_No_Ammo_on_est_a_court_de_munitions_ici_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9673,7 +9673,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Panicking_a_couvert' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Panicking_a_couvert_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9681,7 +9681,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Panicking_putain_on_se_fait_allumer' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Panicking_putain_on_se_fait_allumer_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9689,7 +9689,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Impossible_impossible_commandant' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Impossible_impossible_commandant_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9697,7 +9697,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Reverse_en_arriere' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Reverse_en_arriere_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9705,7 +9705,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_a_vos_ordres' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_a_vos_ordres_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9713,7 +9713,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_au_rapport' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_au_rapport_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9721,7 +9721,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_canon_verifie_et_pret' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_canon_verifie_et_pret_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 3
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9729,7 +9729,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_dca_paree' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_dca_paree_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 4
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9737,7 +9737,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_des_instructions' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_des_instructions_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 5
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9745,7 +9745,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_oui_chef' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_oui_chef_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 6
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9753,7 +9753,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_piece_operationnelle' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_piece_operationnelle_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 7
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9761,7 +9761,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_prets' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_prets_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 8
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9769,7 +9769,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_prets_a_tirer_au_sol_comme_en_l_air' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_prets_a_tirer_au_sol_comme_en_l_air_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 9
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9777,7 +9777,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_vous_avez_repere_des_avions_ennemis' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Select_vous_avez_repere_des_avions_ennemis_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 10
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9785,7 +9785,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Attack_Position_arrosez_cette_position' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Attack_Position_arrosez_cette_position_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9793,7 +9793,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Stop_a_vos_ordres' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Stop_a_vos_ordres_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9801,7 +9801,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Surrender_halte_au_feu' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Surrender_halte_au_feu_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9809,7 +9809,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Target_Destroyed_bravo_les_mecs' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Target_Destroyed_bravo_les_mecs_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9817,7 +9817,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Target_Destroyed_cible_detruite' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Target_Destroyed_cible_detruite_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9825,7 +9825,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Withdraw_tirons_nous_de_la' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_CanonAA_Withdraw_tirons_nous_de_la_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_CanonAA
@@ -9833,7 +9833,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Attack_il_est_temps_de_monter_au_front' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Attack_il_est_temps_de_monter_au_front_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9841,7 +9841,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Attack_je_dirigerais_l_attaque_moi_meme_mon_colonel' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Attack_je_dirigerais_l_attaque_moi_meme_mon_colonel_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9849,7 +9849,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Attack_je_m_occupe_de_ca_mon_colonel' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Attack_je_m_occupe_de_ca_mon_colonel_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 3
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9857,7 +9857,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Attack_suivez_moi_soldats_a_l_attaque' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Attack_suivez_moi_soldats_a_l_attaque_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 4
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9865,7 +9865,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_DamageReceived_ca_chauffe' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_DamageReceived_ca_chauffe_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9873,7 +9873,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_DamageReceived_nous_sommes_sous_le_feu' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_DamageReceived_nous_sommes_sous_le_feu_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9881,7 +9881,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_DamageReceived_soldat_a_terre' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_DamageReceived_soldat_a_terre_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 3
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9889,7 +9889,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Enemy_Contact_a_toutes_les_unites_ennemi_repere' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Enemy_Contact_a_toutes_les_unites_ennemi_repere_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9897,7 +9897,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Fast_en_avant_a_toute_vitesse' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Fast_en_avant_a_toute_vitesse_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9905,7 +9905,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Fast_on_bouge_son_cul' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Fast_on_bouge_son_cul_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9913,7 +9913,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Fast_on_se_magne' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Fast_on_se_magne_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 3
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9921,7 +9921,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Fast_recu_fort_et_clair' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Fast_recu_fort_et_clair_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 4
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9929,7 +9929,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Fast_vite' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Fast_vite_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 5
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9937,7 +9937,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_j_y_serais_bientot' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_j_y_serais_bientot_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 6
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9945,7 +9945,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_on_se_redeploie_aussi_vite_que_possible' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_on_se_redeploie_aussi_vite_que_possible_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 7
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9953,7 +9953,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_on_y_va' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_on_y_va_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 8
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9961,7 +9961,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Attack_a_mon_commandement' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Attack_a_mon_commandement_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9969,7 +9969,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Attack_compris_colonel' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Attack_compris_colonel_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9977,7 +9977,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Attack_faites_gaffe_aux_cocos' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Attack_faites_gaffe_aux_cocos_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 3
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9985,7 +9985,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Attack_ok_on_va_jouer_les_gros_bras' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Move_Attack_ok_on_va_jouer_les_gros_bras_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 4
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -9993,7 +9993,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_No_Ammo_besoin_de_munitions' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_No_Ammo_besoin_de_munitions_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10001,7 +10001,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Panicking_on_en_prend_plein_la_gueule' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Panicking_on_en_prend_plein_la_gueule_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10009,7 +10009,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Panicking_on_est_sous_le_feu' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Panicking_on_est_sous_le_feu_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10017,7 +10017,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Impossible_impossible' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Impossible_impossible_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10025,7 +10025,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Reverse_pilote_sors_nous_de_la' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Reverse_pilote_sors_nous_de_la_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10033,7 +10033,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_a_vos_ordres' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_a_vos_ordres_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10041,7 +10041,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_attendons_vos_instructions' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_attendons_vos_instructions_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10049,7 +10049,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_au_rapport' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_au_rapport_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 3
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10057,7 +10057,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_c_est_un_plaisir_mon_colonel' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_c_est_un_plaisir_mon_colonel_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 4
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10065,7 +10065,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_la_situation_est_sous_controle' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_la_situation_est_sous_controle_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 5
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10073,7 +10073,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_mes_gars_et_moi_sommes_prets_mon_colonel' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_mes_gars_et_moi_sommes_prets_mon_colonel_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 6
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10081,7 +10081,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_pret' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_pret_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 7
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10089,7 +10089,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_quel_est_le_plan' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_quel_est_le_plan_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 8
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10097,7 +10097,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_tout_ce_que_vous_voulez_mon_colonel' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Select_tout_ce_que_vous_voulez_mon_colonel_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 9
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10105,7 +10105,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Attack_Position_declenchez_un_tir_de_suppression' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Attack_Position_declenchez_un_tir_de_suppression_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10113,7 +10113,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Stop_nous_allons_etablir_notre_pc_ici' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Stop_nous_allons_etablir_notre_pc_ici_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10121,7 +10121,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Surrender_on_se_rend' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Surrender_on_se_rend_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10129,7 +10129,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Target_Destroyed_cible_neutralisee' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Target_Destroyed_cible_neutralisee_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10137,7 +10137,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Target_Destroyed_objectif_nettoye' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Target_Destroyed_objectif_nettoye_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10145,7 +10145,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Withdraw_retraite' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Command_Withdraw_retraite_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Command
@@ -10153,7 +10153,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Attack_allumez_les' Filter = TSoundFilter_RadioOutside )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Attack_allumez_les_strat' Filter = TSoundFilter_RadioOutside )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Engineer
@@ -10161,7 +10161,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Attack_cramez_les_tous' Filter = TSoundFilter_RadioOutside )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Attack_cramez_les_tous_strat' Filter = TSoundFilter_RadioOutside )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Engineer
@@ -10169,7 +10169,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Attack_on_va_s_en_griller_une' Filter = TSoundFilter_RadioOutside )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Attack_on_va_s_en_griller_une_strat' Filter = TSoundFilter_RadioOutside )
             Version           = 3
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Engineer
@@ -10177,7 +10177,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_DamageReceived_on_nous_tire_dessus' Filter = TSoundFilter_RadioOutside )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_DamageReceived_on_nous_tire_dessus_strat' Filter = TSoundFilter_RadioOutside )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Engineer
@@ -10185,7 +10185,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Enemy_Contact_j_ai_repere_l_ennemi' Filter = TSoundFilter_RadioOutside )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Enemy_Contact_j_ai_repere_l_ennemi_strat' Filter = TSoundFilter_RadioOutside )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Engineer
@@ -10193,7 +10193,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Load_en_voiture' Filter = TSoundFilter_RadioOutside )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Load_en_voiture_strat' Filter = TSoundFilter_RadioOutside )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Engineer
@@ -10201,7 +10201,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Move_c_est_parti' Filter = TSoundFilter_RadioOutside )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Move_c_est_parti_strat' Filter = TSoundFilter_RadioOutside )
             Version           = 1
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Engineer
@@ -10209,7 +10209,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Move_compris' Filter = TSoundFilter_RadioOutside )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Move_compris_strat' Filter = TSoundFilter_RadioOutside )
             Version           = 2
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Engineer
@@ -10217,7 +10217,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Move_Fast_en_avant' Filter = TSoundFilter_RadioOutside )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Engineer_Move_Fast_en_avant_strat' Filter = TSoundFilter_RadioOutside )
             Version           = 3
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Engineer
