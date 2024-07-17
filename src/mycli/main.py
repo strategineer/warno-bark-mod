@@ -41,6 +41,7 @@ sd.default.channels = channels
 wasapi_exclusive = sd.WasapiSettings(exclusive=True)
 sd.default.extra_settings = wasapi_exclusive
 for f in ls:
+    # TODO I need to add these files but change their path slightly and and change the folder or filename so that warno detects the new file instead of using the old one
     output_filepath = pathlib.Path(MOD_SOUNDS_BASEPATH, f"{f}.ogg")
     if output_filepath.exists():
         print(f"{output_filepath} already exists, skipping to next file")
