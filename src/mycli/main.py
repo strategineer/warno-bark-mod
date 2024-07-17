@@ -3,6 +3,7 @@ import sys
 import pathlib
 import time
 import tempfile
+import keyboard
 import queue
 
 import sounddevice as sd
@@ -20,9 +21,6 @@ def callback(indata, frames, time, status):
     if status:
         print(status, file=sys.stderr)
     q.put(indata.copy())
-
-
-
 
 print("Record Warno VO")
 # TODO go through each voice line one by one
@@ -46,32 +44,47 @@ sd.default.channels = channels
 wasapi_exclusive = sd.WasapiSettings(exclusive=True)
 sd.default.extra_settings = wasapi_exclusive
 for f in ls:
-    q = queue.Queue()
     output_filepath = pathlib.Path(MOD_SOUNDS_BASEPATH, f"{f}.ogg")
     if output_filepath.exists():
         print(f"{output_filepath} already exists, skipping to fix file")
         continue
-    k = input(f"Press Enter to record for: {f}")
-    if k:
-        sys.exit()
-    print("...")
-    time.sleep(0.1)
-    print("..")
-    time.sleep(0.1)
-    print(".")
-    time.sleep(0.1)
-    print("Go!")
-    try:
-        # Make sure the file is opened before recording anything:
-        with sf.SoundFile(output_filepath, mode='x', samplerate=samplerate,
-                        channels=channels) as file:
-            with sd.InputStream(samplerate=samplerate, callback=callback):
-                print('#' * 80)
-                print('press Ctrl+C to stop the recording')
-                print('#' * 80)
-                while True:
-                    file.write(q.get())
-    except KeyboardInterrupt:
-        continue
-    except Exception as e:
-        sys.exit(type(e).__name__ + ': ' + str(e))
+    restart_recording = True
+    skip_file = False
+    while restart_recording:
+        output_filepath.unlink(missing_ok=True)
+        restart_recording = False
+        q = queue.Queue()
+        print(f"Recording for: {f}")
+        print("...")
+        time.sleep(1)
+        print("..")
+        time.sleep(1)
+        print(".")
+        time.sleep(1)
+        print("Go!")
+        try:
+            # Make sure the file is opened before recording anything:
+            with sf.SoundFile(output_filepath, mode='x', samplerate=samplerate,
+                            channels=channels) as file:
+                with sd.InputStream(samplerate=samplerate, callback=callback):
+                    print('#' * 80)
+                    print('Press r to restart the recording. Press s to skip this file. Press Spacebar to stop the recording')
+                    print('#' * 80)
+                    while True:
+                        file.write(q.get())
+                        if keyboard.is_pressed('r'):
+                            restart_recording = True
+                            break
+                        if keyboard.is_pressed(''):
+                            skip_file = True
+                            break
+                        if keyboard.is_pressed(' '):
+                            break
+        except KeyboardInterrupt as e:
+            sys.exit()
+        except Exception as e:
+            sys.exit(type(e).__name__ + ': ' + str(e))
+        finally:
+            output_filepath.unlink(missing_ok=True)
+    if skip_file:
+        output_filepath.unlink(missing_ok=True)
