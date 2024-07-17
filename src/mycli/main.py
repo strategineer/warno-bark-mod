@@ -2,7 +2,7 @@ import re
 import sys
 import pathlib
 import time
-import tempfile
+import click
 import keyboard
 import queue
 
@@ -31,9 +31,6 @@ txt = ""
 with open(DESCRIPTORS_PATH) as input_file:
     txt = input_file.read()
     ls = re.findall("Identifier = '([^']+)'", txt)
-for lang in set([l[:2] for l in ls]):
-    p = pathlib.Path(MOD_SOUNDS_BASEPATH, lang)
-    p.mkdir(exist_ok=True)
 # TODO make this filter a parameter
 ls = [l for l in ls if l.startswith("FR/")]
 samplerate = 48000
