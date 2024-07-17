@@ -75,7 +75,7 @@ for f in ls:
                         if keyboard.is_pressed('r'):
                             restart_recording = True
                             break
-                        if keyboard.is_pressed(''):
+                        if keyboard.is_pressed('s'):
                             skip_file = True
                             break
                         if keyboard.is_pressed(' '):
