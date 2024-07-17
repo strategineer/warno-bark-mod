@@ -92,7 +92,8 @@ def main():
 
 
 try:
-    main()
+    #main()
+    pass
 except KeyboardInterrupt as e:
     sys.exit()
 except Exception as e:
@@ -108,7 +109,7 @@ finally:
         content = input_file.read()
         changed_content = content
         for ident in valid_identifiers:
-            changed_content = re.sub(ident, f"{ident}_strat", changed_content, flags = re.M)
+            changed_content = re.sub(f"'{ident}'", f"'{ident}_strat'", changed_content, flags = re.M)
     if content == changed_content:
         print("No change...")
     else:

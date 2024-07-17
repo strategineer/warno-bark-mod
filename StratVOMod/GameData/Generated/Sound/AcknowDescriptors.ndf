@@ -9065,7 +9065,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_AirSup_Select_je_vous_ecoute_strat_controle_strat' Filter = TSoundFilter_RadioAirplane )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_AirSup_Select_je_vous_ecoute_controle_strat' Filter = TSoundFilter_RadioAirplane )
             Version           = 6
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_AirSup
@@ -9385,7 +9385,7 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowUnitDescriptor
         (
-            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_ArtShell_Select_prets_a_faire_feu_strat_mon_commandant_strat' Filter = TSoundFilter_RadioVehicule )
+            Sound             = Template_UnitAcknow( Identifier = 'FR/FR_ArtShell_Select_prets_a_faire_feu_mon_commandant_strat' Filter = TSoundFilter_RadioVehicule )
             Version           = 9
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_ArtShell
