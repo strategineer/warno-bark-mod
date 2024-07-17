@@ -1,11 +1,7 @@
 
-/CommonData_backup
-/GameData_backup
-/Gen
-
-/exports
-/secret
-/tmp/
+*/CommonData_backup
+*/GameData_backup
+*/Gen
 
 /include/
 
