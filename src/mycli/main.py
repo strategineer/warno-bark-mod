@@ -2,7 +2,6 @@ import re
 import sys
 import pathlib
 import time
-import click
 import keyboard
 import queue
 
@@ -23,7 +22,7 @@ def callback(indata, frames, time, status):
         print(status, file=sys.stderr)
     q.put(indata.copy())
 
-def main():
+try:
     # TODO have a param to filter files by filename/prefix, to overwrite them or not so we can continue where we left off,
     ls = []
     txt = ""
@@ -42,7 +41,6 @@ def main():
     for identifier in ls:
         output_filepath = pathlib.Path(MOD_SOUNDS_BASEPATH, f"{identifier}_strat.ogg")
         if output_filepath.exists():
-            print(f"{output_filepath} already exists, skipping to next file")
             continue
         restart_recording = True
         skip_file = False
@@ -84,11 +82,6 @@ def main():
                 raise
             if skip_file:
                 output_filepath.unlink(missing_ok=True)
-
-
-try:
-    #main()
-    pass
 except KeyboardInterrupt as e:
     sys.exit()
 except Exception as e:
