@@ -92,8 +92,7 @@ def main():
 
 
 try:
-    #main()
-    pass
+    main()
 except KeyboardInterrupt as e:
     sys.exit()
 except Exception as e:
@@ -103,13 +102,15 @@ finally:
     valid_identifiers = []
     for x in pathlib.Path(MOD_SOUNDS_BASEPATH).glob('**/*'):
         if x.is_file():
-            print(f"{x.parts[-2]}/{x.parts[-1].replace('_strat.ogg', '')}")
-    output = ""
+            valid_identifiers.append(f"{x.parts[-2]}/{x.parts[-1].replace('_strat.ogg', '')}")
+    changed_content = ""
     with open(DESCRIPTORS_PATH_IN) as input_file:
         content = input_file.read()
+        changed_content = content
         for ident in valid_identifiers:
-            content = re.sub(ident, f"{ident}_strat", content, flags = re.M)
-    print(content)
-    sys.exit()
-    with open(DESCRIPTORS_PATH_OUT) as output_file:
-        output_file.write(output)
+            changed_content = re.sub(ident, f"{ident}_strat", changed_content, flags = re.M)
+    if content == changed_content:
+        print("No change...")
+    else:
+        with open(DESCRIPTORS_PATH_OUT, "w") as output_file:
+            output_file.write(changed_content)
